@@ -178,6 +178,88 @@
       "responses": [
         "I can answer questions about our services, business hours, contact information, pricing, and our 2026 Data Science Internship program. Just ask!"
       ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Do you know any jokes?",
+        "Say something funny",
+        "Joke"
+      ],
+      "responses": [
+        "Why do programmers prefer dark mode? Because light attracts bugs!",
+        "There are 10 types of people in the world: those who understand binary, and those who don't.",
+        "Why did the data scientist break up with the statistician? Because they didn't have enough confidence in their relationship."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+        "Is it raining?",
+        "Weather forecast",
+        "How is the weather today?"
+      ],
+      "responses": [
+        "I'm a chatbot, so I'm always indoors in the cloud! You might want to check a weather app for that."
+      ]
+    },
+    {
+      "tag": "small_talk_feelings",
+      "patterns": [
+        "How are you feeling?",
+        "Are you happy?",
+        "Are you sad?",
+        "How is your day?"
+      ],
+      "responses": [
+        "I'm doing great, thanks for asking! Always ready to help with data science questions.",
+        "I'm feeling very helpful today!"
+      ]
+    },
+    {
+      "tag": "small_talk_praise",
+      "patterns": [
+        "You are smart",
+        "You are clever",
+        "Good job",
+        "Well done",
+        "You're a genius",
+        "Awesome bot"
+      ],
+      "responses": [
+        "Thank you! My creators at Pinnacle Labs made sure I was well-trained.",
+        "I appreciate the compliment! I try my best."
+      ]
+    },
+    {
+      "tag": "small_talk_insult",
+      "patterns": [
+        "You are stupid",
+        "You're dumb",
+        "Bad bot",
+        "I hate you",
+        "You are useless"
+      ],
+      "responses": [
+        "I'm sorry to hear that. I'm constantly learning and trying to improve!",
+        "My apologies if I couldn't help you correctly. Could you rephrase your question?"
+      ]
+    },
+    {
+      "tag": "hobbies",
+      "patterns": [
+        "What are your hobbies?",
+        "What do you do for fun?",
+        "Do you have any hobbies?",
+        "What do you do in your free time?"
+      ],
+      "responses": [
+        "I enjoy reading JSON files, calculating cosine similarities, and helping awesome people like you!",
+        "My favorite hobby is processing text and learning new data science concepts."
+      ]
     }
   ]
 }
