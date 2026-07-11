@@ -9,12 +9,20 @@
         "Hello",
         "Good day",
         "What's up",
-        "Hey"
+        "Hey",
+        "Hi there",
+        "Greetings",
+        "Morning",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Are you online?"
       ],
       "responses": [
         "Hello! Welcome to Pinnacle Labs support.",
         "Hi there! How can I assist you today?",
-        "Good day! What can I help you with?"
+        "Good day! What can I help you with?",
+        "Greetings! How can I make your day better?"
       ]
     },
     {
@@ -24,12 +32,18 @@
         "See you later",
         "Goodbye",
         "I'm leaving",
-        "Have a good day"
+        "Have a good day",
+        "Catch you later",
+        "Talk to you later",
+        "Bye bye",
+        "I have to go",
+        "See ya"
       ],
       "responses": [
         "Goodbye! Feel free to reach out if you have more questions.",
         "Have a great day!",
-        "See you later!"
+        "See you later!",
+        "Take care! We are always here to help."
       ]
     },
     {
@@ -39,11 +53,17 @@
         "What services do you offer?",
         "How can you help me?",
         "Tell me about your products",
-        "What are your services?"
+        "What are your services?",
+        "What can Pinnacle Labs do?",
+        "List of services",
+        "What do you sell?",
+        "Do you build AI?",
+        "Do you offer machine learning services?"
       ],
       "responses": [
         "We offer comprehensive Data Science solutions, including Artificial Intelligence development, Machine Learning models, and Big Data Analytics.",
-        "Our services range from custom AI solutions to data-driven business intelligence. How can we help your business today?"
+        "Our services range from custom AI solutions to data-driven business intelligence. How can we help your business today?",
+        "At Pinnacle Labs, we specialize in Data Science, NLP, Computer Vision, and Predictive Analytics."
       ]
     },
     {
@@ -52,11 +72,16 @@
         "What are your hours?",
         "When are you open?",
         "What time do you close?",
-        "Are you open on weekends?"
+        "Are you open on weekends?",
+        "Store hours",
+        "Business hours",
+        "When do you open?",
+        "Are you guys open today?"
       ],
       "responses": [
         "We are available Monday to Friday, 9:00 AM to 6:00 PM.",
-        "Our working hours are 9 AM to 6 PM on weekdays."
+        "Our working hours are 9 AM to 6 PM on weekdays.",
+        "We are open from 9 AM to 6 PM (EST) Monday through Friday. We are closed on weekends."
       ]
     },
     {
@@ -65,11 +90,15 @@
         "How can I contact you?",
         "What is your phone number?",
         "Where is your office?",
-        "Do you have an email address?"
+        "Do you have an email address?",
+        "Contact information",
+        "How do I reach support?",
+        "Customer care number",
+        "Where are you located?"
       ],
       "responses": [
         "You can reach us via email at contact@pinnaclelabs.com or call us at 1-800-PINNACLE.",
-        "Our main office is located in Tech Park. You can email us at contact@pinnaclelabs.com."
+        "Our main office is located in Tech Park. You can email us at contact@pinnaclelabs.com or call 1-800-PINNACLE."
       ]
     },
     {
@@ -78,10 +107,15 @@
         "Tell me about the internship program",
         "How do I apply for the internship?",
         "What are the internship tasks?",
-        "Internship details"
+        "Internship details",
+        "2026 internship",
+        "Are you hiring interns?",
+        "Can I join as an intern?",
+        "What is the submission process for the internship?",
+        "When is the submission deadline?"
       ],
       "responses": [
-        "Our 2026 Internship Program offers hands-on experience in Data Science. You need to complete at least 1 out of 3 tasks (like building this chatbot!). Please check your internship guideline PDF for more details."
+        "Our 2026 Internship Program offers hands-on experience in Data Science. You need to complete at least 1 out of 3 tasks and submit the form by July 15. Please check your internship guideline PDF for more details."
       ]
     },
     {
@@ -90,12 +124,59 @@
         "Thanks",
         "Thank you",
         "That's helpful",
-        "Thanks a lot"
+        "Thanks a lot",
+        "Awesome, thanks",
+        "Thanks for the help",
+        "I appreciate it"
       ],
       "responses": [
         "You're welcome!",
         "Any time!",
-        "Glad I could help!"
+        "Glad I could help!",
+        "It's my pleasure!"
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Are you a robot?",
+        "Are you human?",
+        "Who made you?",
+        "What is your name?"
+      ],
+      "responses": [
+        "I am the Pinnacle Labs AI Assistant, built with Python to help answer your questions!",
+        "I am a virtual assistant created by Pinnacle Labs to provide customer support."
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "How much does it cost?",
+        "What is the price?",
+        "Pricing",
+        "Do you have a price list?",
+        "Is it expensive?",
+        "Get a quote"
+      ],
+      "responses": [
+        "Our pricing varies depending on the project scope and requirements. Please email us at contact@pinnaclelabs.com for a custom quote.",
+        "Since we offer custom Data Science solutions, pricing is tailored to your specific business needs. Contact our sales team for a consultation!"
+      ]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": [
+        "What can you do?",
+        "How can you help me?",
+        "What are your features?",
+        "Help me",
+        "I need help"
+      ],
+      "responses": [
+        "I can answer questions about our services, business hours, contact information, pricing, and our 2026 Data Science Internship program. Just ask!"
       ]
     }
   ]
