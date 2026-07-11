@@ -55,11 +55,35 @@ class ChatbotModel:
         self.is_trained = True
         print("Chatbot model trained successfully.")
 
+    def preprocess_user_input(self, text):
+        import difflib
+        tokens = nltk.word_tokenize(text.lower())
+        lemmatized_tokens = [lemmatizer.lemmatize(word) for word in tokens]
+        
+        if self.is_trained:
+            try:
+                vocab = self.vectorizer.get_feature_names_out()
+                corrected_tokens = []
+                for word in lemmatized_tokens:
+                    if word not in vocab and word.isalnum():
+                        matches = difflib.get_close_matches(word, vocab, n=1, cutoff=0.6)
+                        if matches:
+                            corrected_tokens.append(matches[0])
+                        else:
+                            corrected_tokens.append(word)
+                    else:
+                        corrected_tokens.append(word)
+                return " ".join(corrected_tokens)
+            except Exception:
+                pass
+                
+        return " ".join(lemmatized_tokens)
+
     def get_response(self, user_input):
         if not self.is_trained:
             return "Sorry, my brain isn't fully loaded yet."
 
-        preprocessed_input = self.preprocess_text(user_input)
+        preprocessed_input = self.preprocess_user_input(user_input)
         input_vector = self.vectorizer.transform([preprocessed_input])
         
         # Calculate cosine similarity between user input and all patterns
