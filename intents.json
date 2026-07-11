@@ -1,0 +1,102 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "What's up",
+        "Hey"
+      ],
+      "responses": [
+        "Hello! Welcome to Pinnacle Labs support.",
+        "Hi there! How can I assist you today?",
+        "Good day! What can I help you with?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "I'm leaving",
+        "Have a good day"
+      ],
+      "responses": [
+        "Goodbye! Feel free to reach out if you have more questions.",
+        "Have a great day!",
+        "See you later!"
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What do you do?",
+        "What services do you offer?",
+        "How can you help me?",
+        "Tell me about your products",
+        "What are your services?"
+      ],
+      "responses": [
+        "We offer comprehensive Data Science solutions, including Artificial Intelligence development, Machine Learning models, and Big Data Analytics.",
+        "Our services range from custom AI solutions to data-driven business intelligence. How can we help your business today?"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your hours?",
+        "When are you open?",
+        "What time do you close?",
+        "Are you open on weekends?"
+      ],
+      "responses": [
+        "We are available Monday to Friday, 9:00 AM to 6:00 PM.",
+        "Our working hours are 9 AM to 6 PM on weekdays."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact you?",
+        "What is your phone number?",
+        "Where is your office?",
+        "Do you have an email address?"
+      ],
+      "responses": [
+        "You can reach us via email at contact@pinnaclelabs.com or call us at 1-800-PINNACLE.",
+        "Our main office is located in Tech Park. You can email us at contact@pinnaclelabs.com."
+      ]
+    },
+    {
+      "tag": "internship",
+      "patterns": [
+        "Tell me about the internship program",
+        "How do I apply for the internship?",
+        "What are the internship tasks?",
+        "Internship details"
+      ],
+      "responses": [
+        "Our 2026 Internship Program offers hands-on experience in Data Science. You need to complete at least 1 out of 3 tasks (like building this chatbot!). Please check your internship guideline PDF for more details."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Any time!",
+        "Glad I could help!"
+      ]
+    }
+  ]
+}
