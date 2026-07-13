@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const avatarDiv = document.createElement('div');
         avatarDiv.className = 'avatar';
-        avatarDiv.innerText = isUser ? 'U' : 'P';
+        avatarDiv.innerHTML = isUser ? '<i class="fa-solid fa-user"></i>' : '<i class="fa-solid fa-robot"></i>';
 
         const contentDiv = document.createElement('div');
         contentDiv.className = 'message-content';
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const avatarDiv = document.createElement('div');
         avatarDiv.className = 'avatar';
-        avatarDiv.innerText = 'P';
+        avatarDiv.innerHTML = '<i class="fa-solid fa-robot"></i>';
 
         const contentDiv = document.createElement('div');
         contentDiv.className = 'message-content typing-indicator';

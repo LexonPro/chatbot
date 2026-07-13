@@ -4,35 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pinnacle Labs Support Chat</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Use Outfit font for a more modern, premium feel -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="chat-container">
+    <!-- Animated background elements -->
+    <div class="bg-shape shape1"></div>
+    <div class="bg-shape shape2"></div>
+    <div class="bg-shape shape3"></div>
+    
+    <div class="chat-container glass-effect">
         <div class="chat-header">
-            <div class="header-info">
-                <h2>Pinnacle Assistant</h2>
-                <p>Online | Data Science Support</p>
+            <div class="header-content">
+                <div class="bot-profile">
+                    <div class="avatar-header">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <div class="header-info">
+                        <h2>Pinnacle AI</h2>
+                        <div class="status-wrapper">
+                            <span class="status-indicator"></span>
+                            <p>Online & Ready</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <button class="action-btn"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                </div>
             </div>
-            <div class="status-indicator"></div>
         </div>
         
         <div class="chat-messages" id="chat-messages">
             <div class="message bot-message">
-                <div class="avatar">P</div>
-                <div class="message-content">
-                    Hello! I'm the Pinnacle Labs assistant. How can I help you today?
+                <div class="avatar"><i class="fa-solid fa-robot"></i></div>
+                <div class="message-content glass-msg">
+                    <p>Hello! 👋 I'm the Pinnacle Labs AI assistant.</p>
+                    <p>I can help you with data science services, pricing, our 2026 internship program, or just chat! How can I assist you today?</p>
                 </div>
             </div>
         </div>
         
         <div class="chat-input-container">
-            <input type="text" id="user-input" placeholder="Type your message here..." autocomplete="off">
-            <button id="send-btn">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/24/svg">
-                    <path d="M2.01 21L23 12L2.01 3L2 10L17 12L2 14L2.01 21Z" fill="white"/>
-                </svg>
-            </button>
+            <div class="input-wrapper">
+                <input type="text" id="user-input" placeholder="Type your message..." autocomplete="off">
+                <button id="send-btn" class="glow-btn">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </div>
         </div>
     </div>
 
